@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://gitea/sunriseydy/magpie-agent-code-server.git"
+    "url": "https://github.com/sunriseydy/magpie-agent-code-server.git"
   },
   "magpie": {
     "agent": "./code-server.agent.js",
