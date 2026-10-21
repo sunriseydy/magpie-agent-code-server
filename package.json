@@ -1,6 +1,6 @@
 {
-  "name": "@magpie-community/agent-code-server",
-  "version": "0.1.0",
+  "name": "magpie-agent-code-server",
+  "version": "0.1.1",
   "description": "code-server as a magpie agent: connect your self-hosted code-server with models configured in magpie",
   "type": "module",
   "main": "./index.mjs",

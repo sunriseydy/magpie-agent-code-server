@@ -13,7 +13,7 @@ Magpie agent plugin for self-hosted [code-server](https://github.com/coder/code-
 
 ### Overview
 
-`@magpie-community/agent-code-server` connects your self-hosted **code-server** instance to **Magpie**. It configures code-server's Copilot Chat extension to route inference requests through Magpie's unified gateway, letting you use any model configured in Magpie (Claude, OpenAI, Gemini, DeepSeek, Local LLMs, etc.) directly in code-server's chat interface.
+`magpie-agent-code-server` connects your self-hosted **code-server** instance to **Magpie**. It configures code-server's Copilot Chat extension to route inference requests through Magpie's unified gateway, letting you use any model configured in Magpie (Claude, OpenAI, Gemini, DeepSeek, Local LLMs, etc.) directly in code-server's chat interface.
 
 ### Features
 
@@ -45,7 +45,7 @@ The plugin stores intermediate bridge states in:
 
 1. **Install plugin in Magpie**:
    ```sh
-   magpie plugin add @magpie-community/agent-code-server
+   magpie plugin add github:sunriseydy/magpie-agent-code-server
    ```
    Or install locally from directory:
    ```sh
@@ -88,7 +88,7 @@ bun test code-server.test.mjs
 
 ### 概述
 
-`@magpie-community/agent-code-server` 是为自部署的 **code-server**（浏览器中的 VS Code）打造的 Magpie Agent 管理插件。它通过配置 code-server 内置的 GitHub Copilot Chat 扩展，将对话请求引导至 Magpie 网关，使您能够在 Web 端代码开发环境中无缝使用 Magpie 统一管理的任意大模型（如 Claude, OpenAI, Gemini, DeepSeek 或自建本地模型）。
+`magpie-agent-code-server` 是为自部署的 **code-server**（浏览器中的 VS Code）打造的 Magpie Agent 管理插件。它通过配置 code-server 内置的 GitHub Copilot Chat 扩展，将对话请求引导至 Magpie 网关，使您能够在 Web 端代码开发环境中无缝使用 Magpie 统一管理的任意大模型（如 Claude, OpenAI, Gemini, DeepSeek 或自建本地模型）。
 
 ### 核心特性
 
@@ -116,7 +116,7 @@ bun test code-server.test.mjs
 
 1. **在 Magpie 中安装插件**：
    ```sh
-   magpie plugin add @magpie-community/agent-code-server
+   magpie plugin add github:sunriseydy/magpie-agent-code-server
    ```
    或直接使用本地目录路径添加（支持热修改调试）：
    ```sh
